@@ -1,13 +1,20 @@
-# Valheim Windows Client Instructions
-These instructions detail how to setup your Valheim game running on your Windows workstation to use the Cityhallin Valehim modded server. The Cityhallin Valheim server is currently using the folliwng mods:
+# Valheim Server Details and Windows Client Instructions
+This README gives details about the Cityhallin Valheim dedicated server for friends and how to setup Valheim game mods running on your Windows workstation to use the Cityhallin Valehim modded server. 
+
+## Valheim Server Details
+The Cityhallin Valheim server information:
 
 1. 0.9.9.9 ValheimPlus: Allows for quality of life modifications
 2. Jotunn Valheim Library: Supports other mods to be used on the server
 3. ValehimRAFT: Build bases on bots/rafts
+4. 12/06/2022 23:14:27: Valheim version:0.212.7
+
+The server is running the Valheim Mistlands release. Your Valheim client needs to be running the same version. Some mods are not working due to new Mistlands version. Waiting for mod creators to update mods to work correctly with new Vlaheim versions. 
+
+## Install Valheim Mods on Client
 
 In order to connect to this Valheim modded server, run through the following instrcutions:
 
-## Install Valheim Mods
 
 1. Download the most up to date version of Valehim on Steam. Search for your Valheim game folder on your Windows machine. Example below:
 ```

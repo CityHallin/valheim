@@ -18,8 +18,8 @@ C:\Program Files\SteamLibrary\steamapps\common\Valheim
 <br />
 <img src="./readme-files/gh1.png" width="500px">
 
-3. Once downloaded, unzip this folder and find the mod.zip. 
-4. The content of the mod.zip folder should have the following items
+3. Once downloaded, unzip this folder and find the client folder. 
+4. The content of the client folder should have the following items
     - BepInEx Folder
     - doorstop_libs folder
     - unstripped_corlib folder
@@ -29,7 +29,7 @@ C:\Program Files\SteamLibrary\steamapps\common\Valheim
 <br />
 <img src="./readme-files/gh2.png" width="500px">
 
-5. Unzip the mods.zip folder and copy all of these items into your Valehim game folder
+5. Copy all of these items from the client folder into your Valehim game folder
 
 <br />
 <img src="./readme-files/gh3.png" width="500px">

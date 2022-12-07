@@ -15,17 +15,20 @@ The server is running the Valheim Mistlands release. Your Valheim client needs t
 
 In order to connect to this Valheim modded server, run through the following instrcutions:
 
-
 1. Download the most up to date version of Valehim on Steam. Search for your Valheim game folder on your Windows machine. Example below:
 ```
 C:\Program Files\SteamLibrary\steamapps\common\Valheim
 ```
+
 2. Navigate to this [GitHub repo](https://github.com/CityHallin/valheim), click the **Code** button and then click **Download ZIP**
 
-<br />
 <img src="./readme-files/gh1.png" width="500px">
+<br />
+<br />
 
-3. Once downloaded, unzip this folder and find the client folder. 
+3. Unzip the downloaded folder and find the client folder. 
+<br />
+
 4. The content of the client folder should have the following items
     - BepInEx Folder
     - doorstop_libs folder
@@ -33,13 +36,15 @@ C:\Program Files\SteamLibrary\steamapps\common\Valheim
     - doorstop_config.ini
     - winhttp.dll
 
-<br />
 <img src="./readme-files/gh2.png" width="500px">
+<br />
+<br />
 
 5. Copy all of these items from the client folder into your Valehim game folder. Your Valheim game folder should look something like this. 
 
-<br />
 <img src="./readme-files/gh3.png" width="500px">
+<br />
+<br />
 
 6. Once the mods are added to the Valehim game folder, you are ready to enter the game. 
 
@@ -47,28 +52,33 @@ C:\Program Files\SteamLibrary\steamapps\common\Valheim
 
 1. Open the Steam Desktop App, click on **View**, click on **Servers**
 
-<br />
 <img src="./readme-files/gh4.png" width="300px">
+<br />
+<br />
 
 2. Click **Add A server**
 
-<br />
 <img src="./readme-files/gh5.png" width="500px">
-
-3. Enter the IP address and port of the Cityhallin Valheim server and click **Add this address to favorites**
-
 <br />
+<br />
+
+3. Enter the DNS name and port number of the Cityhallin Valheim server provided to friends/family and click **Add this address to favorites**
+
 <img src="./readme-files/gh6.png" width="500px">
-
-4. The Cityhallin server should appear and show the live player count. Double-click on the server and another pop-up will appear asking for the password to the server. Enter the password and click **Connect**
-
 <br />
+<br />
+
+4. The Cityhallin server should appear and show the live player count. Double-click on the server and another pop-up will appear asking for the password. Enter the password provided to friends/family and click **Connect**
+
 <img src="./readme-files/gh7.png" width="700px">
+<br />
+<br />
 
 5. The game will now start. If you see the BepInEx CMD prompt appear, just minimize it (do not close it).
 
-<br />
 <img src="./readme-files/gh8.png" width="500px">
+<br />
+<br />
 
 
 

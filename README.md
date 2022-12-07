@@ -1,5 +1,5 @@
 # Valheim Server Details and Windows Client Instructions
-This README gives details about the Cityhallin Valheim dedicated server for friends and how to setup Valheim game mods running on your Windows workstation to use the Cityhallin Valehim modded server. 
+This README gives details about the Cityhallin Valheim dedicated server for friends/family and how to setup Valheim game mods running on your Windows workstation to use the Cityhallin Valehim modded server. 
 
 ## Valheim Server Details
 The Cityhallin Valheim server information:
@@ -9,7 +9,10 @@ The Cityhallin Valheim server information:
 3. ValehimRAFT: Build bases on bots/rafts
 4. 12/06/2022 23:14:27: Valheim version:0.212.7
 
-The server is running the Valheim Mistlands release. Your Valheim client needs to be running the same version. Some mods are not working due to new Mistlands version. Waiting for mod creators to update mods to work correctly with new Vlaheim versions. 
+## Things to keep in mind:
+ - This server runs maintnence tasks and auto-shuts down every night at 1:30am PST
+ - This server auto-starts about 3:00pm PST every day for use after work. 
+ - This can be changed if usage changes
 
 ## Install Valheim Mods on Client
 
@@ -30,12 +33,7 @@ C:\Program Files\SteamLibrary\steamapps\common\Valheim
 <br />
 
 4. The content of the client folder should have the following items
-    - BepInEx Folder
-    - doorstop_libs folder
-    - unstripped_corlib folder
-    - doorstop_config.ini
-    - winhttp.dll
-
+  
 <img src="./readme-files/gh2.png" width="500px">
 <br />
 <br />

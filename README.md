@@ -29,7 +29,7 @@ C:\Program Files\SteamLibrary\steamapps\common\Valheim
 <br />
 <img src="./readme-files/gh2.png" width="500px">
 
-5. Copy all of these items from the client folder into your Valehim game folder
+5. Copy all of these items from the client folder into your Valehim game folder. Your Valheim game folder should look something like this. 
 
 <br />
 <img src="./readme-files/gh3.png" width="500px">

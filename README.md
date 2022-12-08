@@ -69,9 +69,13 @@ In order to connect to the Cityhallin Modded Dedicated Valheim Server, run throu
 <br />
 <br />
 
-- Copy all of the files from the **valheim-main** folder to your **Valheim Game folder** you found earlier. 
+- Copy all of the files from the **valheim-main** folder to your **Valheim Game folder** you found earlier. If the copy process asked to overwrite files, select **Replace files in the destination.**
 
 <img src="./readme-files/gh3.png" width="900px">
+<br />
+<br />
+
+<img src="./readme-files/gh18.png" width="500px">
 <br />
 <br />
 

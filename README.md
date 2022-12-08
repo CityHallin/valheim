@@ -1,80 +1,115 @@
-# Valheim Server Details and Windows Client Instructions
-This README gives details about the Cityhallin Valheim dedicated server for friends/family and how to setup Valheim game mods running on your Windows workstation to use the Cityhallin Valehim modded server. 
+# Valheim Client Mod Install Instructions
+This README details how to setup your local Valheim game install to be able to run required Valheim game mods. These mods are required in order to interact with the Cityhallin Modded Dedicated Valheim Server. 
 
-## Valheim Server Details
-The Cityhallin Valheim server information:
-
-1. 0.9.9.9 ValheimPlus: Allows for quality of life modifications
-2. Jotunn Valheim Library: Supports other mods to be used on the server
-3. ValehimRAFT: Build bases on bots/rafts
-4. 12/06/2022 23:14:27: Valheim version:0.212.7
-
-## Things to keep in mind:
- - This server runs maintnence tasks and auto-shuts down every night at 1:30am PST
- - This server auto-starts about 3:00pm PST every day for use after work. 
- - This can be changed if usage changes
-
-## Install Valheim Mods on Client
-
-In order to connect to this Valheim modded server, run through the following instrcutions:
-
-1. Download the most up to date version of Valehim on Steam. Search for your Valheim game folder on your Windows machine. Example below:
+## Important Information
+This server is meant for **friends and family**. Due to its low usage, the server is not running 24/7. If more friends and family use it, I can adjust the server to run longer every day. 
+<br />
+<br />
+Current Server Runtime Schedule
 ```
-C:\Program Files\SteamLibrary\steamapps\common\Valheim
+Available for friends and family everyday between 3:00pm and 1:30am PST
 ```
+<hr />
 
-2. Navigate to this [GitHub repo](https://github.com/CityHallin/valheim), click the **Code** button and then click **Download ZIP**
+## Install Valheim Mods on Your Local Machine (Windows)
+
+In order to connect to the Cityhallin Modded Dedicated Valheim Server, run through the following instructions:
+<br />
+<br />
+- Open Steam, click on your Valheim game, and see if it needs updates. If it needs updates, it will have a blue **Update** button, if it is already up to date, it will have a green **Play** button. 
+
+<img src="./readme-files/gh12.png" width="500px">
+<br />
+<br />
+<img src="./readme-files/gh13.png" width="500px">
+<br />
+<br />
+
+- Still in Steam, right click on Valheim and click **Properties**
+
+<img src="./readme-files/gh9.png" width="200px">
+<br />
+<br />
+
+- Go to **Local Files** and click the **Browse** button. This will show you where your local **Valheim Game folder** is located. In this example, mine is stored in the C:\Program Files\SteamLibrary\steamapps\common\Valheim folder. Keep that folder location handy as you'll need to know it for later.
+
+<img src="./readme-files/gh10.png" width="500px">
+<br />
+<br />
+<img src="./readme-files/gh11.png" width="500px">
+<br />
+<br />
+
+- Open your internet browser and navigate to my Valheim GitHub Repo website --> [HERE](https://github.com/CityHallin/valheim/archive/refs/heads/main.zip). Going to this website should automatically download a ZIP folder that holds all of the mod files you will need that I already pre-packaged to make it easy. The ZIP folder should be called **valheim-main.zip**. 
 
 <img src="./readme-files/gh1.png" width="500px">
 <br />
 <br />
 
-3. Unzip the downloaded folder and find the client folder. 
+- On your local machine, go to the folder location where **valheim-main.zip** was downloaded, right click it, and select **Extract All**.
+
+<img src="./readme-files/gh14.png" width="500px">
+<br />
 <br />
 
-4. The content of the client folder should have the following items
+- A pop-up window will appear asking where to Extract the files. Accept the default and click **Extract**. This will create a folder valled **valheim-main** with all of the files we need inside it. 
+
+<img src="./readme-files/gh15.png" width="500px">
+<br />
+<br />
+
+<img src="./readme-files/gh16.png" width="300px">
+<br />
+<br />
+
+- Navigate to the new **valheim-main** folder that was just created from the extraction (there may be a duplicate valheim-main folder inside the first valheim-main folder. Just click into that duplicate folder). The content of the **valheim-main** folder should have the following items
   
-<img src="./readme-files/gh2.png" width="500px">
+<img src="./readme-files/gh2.png" width="300px">
 <br />
 <br />
 
-5. Copy all of these items from the client folder into your Valehim game folder. Your Valheim game folder should look something like this. 
+- Copy all of the files from the **valheim-main** folder to your **Valheim Game folder** you found earlier. 
 
-<img src="./readme-files/gh3.png" width="500px">
+<img src="./readme-files/gh3.png" width="900px">
 <br />
 <br />
 
-6. Once the mods are added to the Valehim game folder, you are ready to enter the game. 
+- Once the copy of the files is done, that is it. Your local **Valheim Game folder** should have everything it needs to connect with the Cityhallin Modded Dedicated Valheim Server.
+
+<img src="./readme-files/gh17.png" width="500px">
+<br />
+<br />
+<hr />
 
 ## Connect to Valheim Server
 
-1. Open the Steam Desktop App, click on **View**, click on **Servers**
+- Open Steam , click on **View**, click on **Servers**
 
 <img src="./readme-files/gh4.png" width="300px">
 <br />
 <br />
 
-2. Click **Add A server**
+- Click **Add A server**
 
 <img src="./readme-files/gh5.png" width="500px">
 <br />
 <br />
 
-3. Enter the DNS name and port number of the Cityhallin Valheim server provided to friends/family and click **Add this address to favorites**
+- Enter the Cityhallin Modded Dedicated Valheim Server address and port number provided to friends/family by me and click **Add this address to favorites**
 
 <img src="./readme-files/gh6.png" width="500px">
 <br />
 <br />
 
-4. The Cityhallin server should appear and show the live player count. Double-click on the server and another pop-up will appear asking for the password. Enter the password provided to friends/family and click **Connect**
+- The Cityhallin server should appear and show the live player count. Double-click on the server and another pop-up will appear asking for the password. Enter the password provided to friends/family by me and click **Connect**
 
-<img src="./readme-files/gh7.png" width="700px">
+<img src="./readme-files/gh7.png" width="900px">
 <br />
 <br />
 
-5. The game will now start. If you see the BepInEx CMD prompt appear, just minimize it (do not close it).
+- The game will now start. If you see the Black screen appear while Valhein is starting, this is **normal**. Just minimize the black screen (do not close it).
 
-<img src="./readme-files/gh8.png" width="500px">
+<img src="./readme-files/gh8.png" width="700px">
 <br />
 <br />
 

@@ -7,7 +7,8 @@ This server is meant for **friends and family**. Due to its low usage, the serve
 <br />
 Current Server Runtime Schedule
 ```
-Available for friends and family everyday between 3:00pm and 1:30am PST
+Available Monday-Friday between 3:00pm and 1:30am PST
+Available Saturday-Sunday between 10:00am and 1:30am PST
 ```
 <hr />
 

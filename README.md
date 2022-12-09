@@ -14,7 +14,7 @@ This README details how to setup your local Valheim game install to be able to r
 Available Monday-Friday between 3:00pm and 1:30am PST
 Available Saturday-Sunday between 10:00am and 1:30am PST
 ```
-<hr />
+
 <br />
 
 ## Install Valheim Mods on Your Local Machine (Windows) <a name="install"></a>
@@ -85,7 +85,7 @@ Available Saturday-Sunday between 10:00am and 1:30am PST
 
 <img src="./readme-files/gh17.png" width="500px">
 
-<hr />
+
 <br />
 
 ## Connect to Valheim Server <a name="connect"></a>
@@ -118,7 +118,7 @@ Available Saturday-Sunday between 10:00am and 1:30am PST
 
 <img src="./readme-files/gh8.png" width="700px">
 
-<hr />
+
 <br />
 
 ## Update Notes <a name="update"></a>

@@ -124,21 +124,34 @@ Available Saturday-Sunday between 10:00am and 1:30am PST
 ## Update Notes <a name="update"></a>
 
 ### December 9, 2022
+(no client update required)
+```
  - Fixed inventory weight issue
  - Fixed quick stamina drain issue
  - Removed force player public position
  - Increased workbench effective radius
  - Max player amount set to 10 while reviewing server performance
- - Upgraded server disk performance 
+ - Upgraded server disk performance
+```
+
+<br />
 
 ### December 8, 2022
+(Require client to update their local games files)
+```
  - Fixed Valheim Plus mod with update 0.9.9.11
     - Increased player skill gain
     - Increased inventory abilities
     - Increased build abilities
     - Removed structure damages
+```
+
+<br />
 
 ### December 7, 2022
+(Require client to update their local games files)
+```
  - Server Creation
  - Valheim 0.212.2
  - Running schedule updated
+```

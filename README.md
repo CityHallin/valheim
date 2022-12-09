@@ -1,17 +1,23 @@
 # Valheim Client Mod Install Instructions
+
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Install Valheim Mods on Your Local Machine (Windows)](#install)
+3. [Connect to Valheim Server](#connect)
+4. [Update Notes](#update)
+
+## Overview <a name="overview"></a>
+
 This README details how to setup your local Valheim game install to be able to run required Valheim game mods. These mods are required in order to interact with the Cityhallin Modded Dedicated Valheim Server. This server is meant for **friends and family**. Due to its low usage, the server is not running 24/7. If more friends and family use it, I can adjust the server to run longer every day. Current server runtime schedule below:
 ```
 Available Monday-Friday between 3:00pm and 1:30am PST
 Available Saturday-Sunday between 10:00am and 1:30am PST
 ```
-
-## Update Tracking
-Visit the [Update Notes Wiki](https://github.com/CityHallin/valheim/wiki/Update-Notes) to track server changes.
-
 <hr />
 <br />
 
-## Install Valheim Mods on Your Local Machine (Windows)
+## Install Valheim Mods on Your Local Machine (Windows) <a name="install"></a>
 
 - Open Steam, click on your Valheim game, and see if it needs updates. If it needs updates, it will have a blue **Update** button, if it is already up to date, it will have a green **Play** button. 
 
@@ -82,7 +88,7 @@ Visit the [Update Notes Wiki](https://github.com/CityHallin/valheim/wiki/Update-
 <hr />
 <br />
 
-## Connect to Valheim Server
+## Connect to Valheim Server <a name="install"></a>
 
 - Open Steam , click on **View**, click on **Servers**
 
@@ -112,4 +118,27 @@ Visit the [Update Notes Wiki](https://github.com/CityHallin/valheim/wiki/Update-
 
 <img src="./readme-files/gh8.png" width="700px">
 
+<hr />
+<br />
 
+## Update Notes <a name="update"></a>
+
+### December 9, 2022
+ - Fixed inventory weight issue
+ - Fixed quick stamina drain issue
+ - Removed force player public position
+ - Increased workbench effective radius
+ - Max player amount set to 10 while reviewing server performance
+ - Upgraded server disk performance 
+
+### December 8, 2022
+ - Fixed Valheim Plus mod with update 0.9.9.11
+    - Increased player skill gain
+    - Increased inventory abilities
+    - Increased build abilities
+    - Removed structure damages
+
+### December 7, 2022
+ - Server Creation
+ - Valheim 0.212.2
+ - Running schedule updated

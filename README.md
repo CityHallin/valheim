@@ -6,7 +6,7 @@ Available Saturday-Sunday between 10:00am and 1:30am PST
 ```
 
 ## Update Tracking
-Visit the [Update Notes Wiki](https://github.com/CityHallin/valheim/archive/refs/heads/main.zip) to track server changes.
+Visit the [Update Notes Wiki](https://github.com/CityHallin/valheim/wiki/Update-Notes) to track server changes.
 
 <hr />
 <br />

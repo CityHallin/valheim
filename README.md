@@ -88,7 +88,7 @@ Available Saturday-Sunday between 10:00am and 1:30am PST
 <hr />
 <br />
 
-## Connect to Valheim Server <a name="install"></a>
+## Connect to Valheim Server <a name="connect"></a>
 
 - Open Steam , click on **View**, click on **Servers**
 

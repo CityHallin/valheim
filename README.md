@@ -1,22 +1,18 @@
 # Valheim Client Mod Install Instructions
-This README details how to setup your local Valheim game install to be able to run required Valheim game mods. These mods are required in order to interact with the Cityhallin Modded Dedicated Valheim Server. 
-
-## Important Information
-This server is meant for **friends and family**. Due to its low usage, the server is not running 24/7. If more friends and family use it, I can adjust the server to run longer every day. 
-<br />
-<br />
-Current Server Runtime Schedule
+This README details how to setup your local Valheim game install to be able to run required Valheim game mods. These mods are required in order to interact with the Cityhallin Modded Dedicated Valheim Server. This server is meant for **friends and family**. Due to its low usage, the server is not running 24/7. If more friends and family use it, I can adjust the server to run longer every day. Current server runtime schedule below:
 ```
 Available Monday-Friday between 3:00pm and 1:30am PST
 Available Saturday-Sunday between 10:00am and 1:30am PST
 ```
+
+## Update Tracking
+Visit the [Update Notes Wiki](https://github.com/CityHallin/valheim/archive/refs/heads/main.zip) to track server changes.
+
 <hr />
+<br />
 
 ## Install Valheim Mods on Your Local Machine (Windows)
 
-In order to connect to the Cityhallin Modded Dedicated Valheim Server, run through the following instructions:
-<br />
-<br />
 - Open Steam, click on your Valheim game, and see if it needs updates. If it needs updates, it will have a blue **Update** button, if it is already up to date, it will have a green **Play** button. 
 
 <img src="./readme-files/gh12.png" width="500px">
@@ -69,7 +65,7 @@ In order to connect to the Cityhallin Modded Dedicated Valheim Server, run throu
 <br />
 <br />
 
-- Copy all of the files from the **valheim-main** folder to your **Valheim Game folder** you found earlier. If the copy process asked to overwrite files, select **Replace files in the destination.**
+- Copy all of the files from the **valheim-main** folder to your **Valheim Game folder** you found earlier. If the copy process asks to overwrite files, select **Replace files in the destination.**
 
 <img src="./readme-files/gh3.png" width="900px">
 <br />
@@ -82,9 +78,9 @@ In order to connect to the Cityhallin Modded Dedicated Valheim Server, run throu
 - Once the copy of the files is done, that is it. Your local **Valheim Game folder** should have everything it needs to connect with the Cityhallin Modded Dedicated Valheim Server.
 
 <img src="./readme-files/gh17.png" width="500px">
-<br />
-<br />
+
 <hr />
+<br />
 
 ## Connect to Valheim Server
 
@@ -115,26 +111,5 @@ In order to connect to the Cityhallin Modded Dedicated Valheim Server, run throu
 - The game will now start. If you see the Black screen appear while Valhein is starting, this is **normal**. Just minimize the black screen (do not close it).
 
 <img src="./readme-files/gh8.png" width="700px">
-<br />
-<br />
-<hr />
-
-## Update Notes
-
-### December 8, 2022
- - Fixed Valheim Plus mod with update 0.9.9.11
-    - Increased player skill gain
-    - Increased inventory abilities
-    - Increased build abilities
-    - Removed structure damages
-
-### December 7, 2022
- - Server Creation
- - Valheim 0.212.2
- - Running schedule updated
-
-
-
-
 
 

@@ -117,6 +117,22 @@ In order to connect to the Cityhallin Modded Dedicated Valheim Server, run throu
 <img src="./readme-files/gh8.png" width="700px">
 <br />
 <br />
+<hr />
+
+## Update Notes
+
+### December 8, 2022
+ - Fixed Valheim Plus mod with update 0.9.9.11
+    - Increased player skill gain
+    - Increased inventory abilities
+    - Increased build abilities
+    - Removed structure damages
+
+### December 7, 2022
+ - Server Creation
+ - Valheim 0.212.2
+ - Running schedule updated
+
 
 
 

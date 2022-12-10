@@ -128,6 +128,13 @@ Available Saturday-Sunday between 10:00am and 1:30am PST
 
 ## Update Notes <a name="update"></a>
 
+### December 10, 2022
+(no client update required)
+```
+ - Jump and run stamina increased
+ - Enabled structural integrity
+```
+
 ### December 9, 2022
 (no client update required)
 ```

@@ -5,6 +5,7 @@
 1. [Overview](#overview)
 2. [Install Valheim Mods on Your Local Machine (Windows)](#install)
 3. [Connect to Valheim Server](#connect)
+3. [Tips and Tricks](#tips)
 4. [Update Notes](#update)
 
 ## Overview <a name="overview"></a>
@@ -120,6 +121,10 @@ Available Saturday-Sunday between 10:00am and 1:30am PST
 
 
 <br />
+
+## Tips and Tricks <a name="tips"></a>
+1. <a href="https://github.com/CityHallin/valheim/wiki/Valheim-Character-Freezing-Issue">Valheim Character Freezing Issue</a>
+
 
 ## Update Notes <a name="update"></a>
 

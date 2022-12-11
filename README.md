@@ -128,6 +128,16 @@ Available Saturday-Sunday between 10:00am and 1:30am PST
 
 ## Update Notes <a name="update"></a>
 
+### December 11, 2022
+(no client update required)
+```
+ - Furnace enhanced and can use all ore types
+ - Torch and fire resource fuel set to max at all times
+ - Max players set to 15
+ - Stamina use for hoe and cultivator decreased
+ - Crop radius protection enabled. This is partially working as sometimes it will still allow crop placement in radius of other crops. Will add to Valheim Plus bug report.  
+```
+
 ### December 10, 2022
 (no client update required)
 ```

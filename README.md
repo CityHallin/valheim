@@ -128,6 +128,13 @@ Available Saturday-Sunday between 10:00am and 1:30am PST
 
 ## Update Notes <a name="update"></a>
 
+### December 16, 2022
+(no client update required)
+```
+ - Player death penalty decreased
+ - Fall damage reduced 
+```
+
 ### December 11, 2022
 (no client update required)
 ```

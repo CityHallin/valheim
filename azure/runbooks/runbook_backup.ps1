@@ -33,7 +33,7 @@ Import-Module Az.Resources
 Import-Module Az.Compute
 
 #Get VM Info
-$vmInfo = Get-AzResource | Where-Object {($_.ResourceType -eq "Microsoft.Compute/virtualMachines")}
+$vmInfo = Get-AzResource | Where-Object {($_.ResourceType -eq "Microsoft.Compute/virtualMachines") -and ($_.Name -like "*val*")}
 
 #Run command on Azure VM
 $timeStamp = get-date -Format "yyyy.MM.dd.HH.mm.ss"

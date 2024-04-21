@@ -61,7 +61,7 @@ Start-sleep 5
 #Get VM Identity Context and Storage Account info
 Write-Output "INFO: Get Azure Context and Storage Info"
 $azureContext = (Connect-AzAccount -Identity).Context
-$saInfo = Get-AzResource | Where-Object {$_.ResourceType -like "*Microsoft.Storage/storageAccounts*"}
+$saInfo = Get-AzResource | Where-Object {($_.ResourceType -like "*Microsoft.Storage/storageAccounts*") -and ($_.Name -like "*val*")}
 $ctx = New-AzStorageContext -StorageAccountName $saInfo.name -UseConnectedAccount
 
 #Save Backup to Azure Blob

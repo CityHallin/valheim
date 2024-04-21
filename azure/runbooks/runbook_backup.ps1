@@ -37,6 +37,6 @@ $vmInfo = Get-AzResource | Where-Object {($_.ResourceType -eq "Microsoft.Compute
 
 #Run command on Azure VM
 $timeStamp = get-date -Format "yyyy.MM.dd.HH.mm.ss"
-$url = "https://raw.githubusercontent.com/CityHallin/public/main/projects/valheim/azure/runbooks/backup.ps1"
+$url = "https://github.com/CityHallin/valheim/raw/main/azure/runbooks/runbook_backup.ps1"
 Set-AzVMRunCommand -ResourceGroupName $($vmInfo.ResourceGroupName) -VMName $($vmInfo.Name) -Location $($vmInfo.Location) -RunCommandName "backup.$timeStamp" -SourceScriptUri $url
 Write-Output "INFO: Kicked off backup called: backup.$timeStamp"

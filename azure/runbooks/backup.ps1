@@ -75,18 +75,18 @@ If ($containerCheck.Name -like "*backup*") {
         Context          = $ctx
         StandardBlobTier = 'Hot'
     }
-    Set-AzStorageBlobContent @blobInfo
+    $blobSave = Set-AzStorageBlobContent @blobInfo
 }
 Else {
     throw (Write-Error -Message "Could not connect to Azure Storage Account container")
 }
 
 #Backup check
-$blobCheck = Get-AzStorageBlob -Context $ctx -Container "valheim-backup" -Blob "world_backup_$($timestamp)" -ErrorAction SilentlyContinue
-If ($blobCheck.name -eq "world_backup_$($timestamp)") {
+$blobCheck = Get-AzStorageBlob -Context $ctx -Container $($containerCheck.Name) -Blob $($blobSave.Name) -ErrorAction SilentlyContinue
+If ($blobCheck.name -eq $($blobSave.Name)) {
     Write-Output "INFO: Azure backup successful"
 }
 Else {        
-        throw (Write-Error -Message "Azure blob save filed")
+        throw (Write-Error -Message "Azure blob save failed")
         exit
 }

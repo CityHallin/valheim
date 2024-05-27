@@ -1,24 +1,13 @@
-# Valheim Administration Client Mod Install Instructions
+# Valheim Mod Install and Admin Instructions
 
-## Table of Contents
+### Table of Contents
+- [Update Valheim](#update)
+- [Install Valheim Mods](#install)
+    - [Scripted Install](#auto)
+    - [Manual Install](#manual)
+- [Admin Instructions](#admin)
 
-1. [Overview](#overview)
-2. [Install Valheim Mods on Your Local Machine (Windows)](#install)
-3. [Admin Instructions](#admin)
-
-## Overview <a name="overview"></a>
-
-These instructions detail how to setup yourself as an admin user on a Valheim Dedicated Server. Your user will be able to do the following actions:
-- Kick Users
-- Ban Users
-- Spawn Items
-- Fly
-<br />
-
-## Install Valheim Admin Mod on Your Local Machine (Windows) <a name="install"></a>
-
-In order to have admin abilities on a Valheim Dedicated Server, you will have to install some mod files on your Valheim Client on your home machine. 
-
+## Update Valheim <a name="update"></a>
 - Open Steam, click on your Valheim game, and see if it needs updates. If it needs updates, it will have a blue **Update** button, if it is already up to date, it will have a green **Play** button. 
 
 <img src="./readme-files/gh12.png" width="500px">
@@ -28,9 +17,16 @@ In order to have admin abilities on a Valheim Dedicated Server, you will have to
 <br />
 <br />
 
-- Still in Steam, right click on Valheim and click **Properties**
 
-<img src="./readme-files/gh9.png" width="200px">
+## Install Valheim Mods<a name="install"></a>
+
+The instructions below will walk you through how to install the pre-setup client mods on your local Valheim client. 
+
+> Important: This process currently only works with Windows machines. 
+
+- In your Steam Game Library, right click on Valheim and click **Properties**
+
+<img src="./readme-files/gh9.png" width="300px">
 <br />
 <br />
 
@@ -43,41 +39,46 @@ In order to have admin abilities on a Valheim Dedicated Server, you will have to
 <br />
 <br />
 
-- Click on the website link here to download the needed Valheim Admin mod ZIP folder --> [Valheim Admin Mod](https://github.com/CityHallin/public/blob/main/projects/valheim/client_mods/valheim-main.zip). 
+### Scripted Install<a name="auto"></a>
 
-<img src="./readme-files/gh1.png" width="500px">
+- If you'd like to use an automated script to download the available mods, click on the [install_client_mods.ps1](https://github.com/CityHallin/valheim/blob/main/scripts/install_client_mods.ps1) link to navigate to my repo and click on the **Download Icon** button to download the PowerShell script. You may need to also right click on the script once downloaded > Properties > check the box for **Unblock** at the bottom to allow it to run. 
+
+<img src="./readme-files/gh24.png" width="500px">
 <br />
 <br />
 
-- On your local machine, go to the folder location where **valheim-main.zip** was downloaded, right click it, and select **Extract All**.
+> Important: When downloading any scripts from the internet, get into the habit of reviewing them for safety before ever running them on your local machine. 
+
+- Running this script will do the following:
+    - Ask for confirmation to start
+    - Ask which mod you'd like to install from my GitHub repo
+    - Ask for the **Valheim Game folder** location you gathered earlier
+    - Will backup your currently Valheim game folder
+    - Will download the mod ZIP file, install the selected Valheim mod, and remove the downloaded ZIP file
+
+<img src="./readme-files/script.gif" width="900px">
+<br />
+<br />
+
+### Manual Install<a name="manual"></a>
+
+Follow the steps below to manually install the Valheim mods:
+
+- Backup up your existing **Valheim Game folder** you found earlier.
+
+- Click on one of the links below to download the mod ZIP file of choice:
+    -  [Valheim Admin Mod - DevCommands](https://github.com/CityHallin/valheim/raw/main/client_mods/client_mod_devcommands.zip). This is used if you will be an admin or a moderator on a Valheim server. This grants you the ability to run admin commands like spawning items, kicking users, etc.
+    -  [Valheim Plus Mod](https://github.com/CityHallin/valheim/raw/main/client_mods/client_mod_valheimplus.zip). This is used if you will be on a Valheim Plus modded server as a regular player and required for granting Valheim Plus abilities. 
+
+- Go to the download ZIP file, right click it and extract its content.
 
 <img src="./readme-files/gh14.png" width="500px">
 <br />
 <br />
 
-- A pop-up window will appear asking where to Extract the files. Accept the default and click **Extract**. This will create a folder valled **valheim-main** with all of the files we need inside it. 
-
-<img src="./readme-files/gh15.png" width="500px">
-<br />
-<br />
-
-<img src="./readme-files/gh16.png" width="300px">
-<br />
-<br />
-
-- Navigate to the new **valheim-main** folder that was just created from the extraction. There will be another folder inside called **client**. Just click into that second folder. The content of the **client** folder should have the following items
-  
-<img src="./readme-files/gh2.png" width="300px">
-<br />
-<br />
-
-- Copy all of the files from the **client** folder to your **Valheim Game folder** you found earlier. If the copy process asks to overwrite files, select **Replace files in the destination.**
+- Copy all of the files from the extracted ZIP file to your **Valheim Game folder** you found earlier. If the copy process asks to overwrite files, select **Replace files in the destination.**
 
 <img src="./readme-files/gh3.png" width="900px">
-<br />
-<br />
-
-<img src="./readme-files/gh18.png" width="500px">
 <br />
 <br />
 
@@ -87,44 +88,48 @@ In order to have admin abilities on a Valheim Dedicated Server, you will have to
 <br />
 <br />
 
-- Retrieve your SteamID. Once you have your SteamID, give this to the server admin running the Valheim Dedicated server. The server admin will need to add you to the server's admin list that will allow your user to have admin abiities on the server. 
+## Admin Instructions <a name="admin"></a>
+
+The **Valheim Admin Mod - DevCommands** is required in order to continue. Use the install instructions above to install this mod on your local Valheim client game. 
+
+### Get SteamID <a name="steamid"></a>
+
+In order to be an admin on a Valheim server, an existing admin will need to add your Steam ID to the admin list on the server. Use the steps below to gather this information. Once you have your Steam ID, give this to the server admin running the Valheim server.
 
 <img src="./readme-files/gh19.png" width="700px">
 <br />
 <br />
 
-<hr />
+Once you have the **Valheim Admin Mod - DevCommands** installed on your local machine and the server admin has added your SteamID to the Valheim server's admin list, you can now run admin commands on that Valheim server. Here are some of the commands. 
 
-## Admin Instructions <a name="admin"></a>
+### Server Stats
 
-Once you have the Valheim Admin Mod installed on your local machine and the server admin has added your SteamID to the Valheim Dedicated Server's admin list, you can now run admin commands on that Valheim server. Here are some of the commands. 
+Click on the **F2** key in game to pull up the server stats overlay. This will show your player names, SteamIDs, and some server stats. 
 
-## Get Server and Player Information
+### Enable Dev Commands
 
-Click on the **F2** key in game to pull up server and player info. This will show you player names and SteamIDs
+Click on the **F5** key in game to pull up the server console. Type the **devcommands** command to both enable or disable admin commands. Enabling this will allow for admin commands to be run. 
 
-## Enable Dev Commands
+### Kick Players
+Use the **kick** command in the game to kick a player's character or the player's entire Steam Account. Use against the player's character name or SteamID.
 
-Use the **/devcommands** command to both enable or disable admin commands. This should be enabled by default. When running this command, if it says "DevCommands: False" this means Devcommands are disabled and you need to run /devcommands to enable it. 
-
-## Kick Players
-Use the **/kick** command in the game to kick a player's character or the player's entire Steam Account. Use against the player's character name or SteamID.
-
-## Ban/Unban Players
-Use the **/ban** command in the game to ban a player's character or the player's entire Steam Account. 
+### Ban - Unban Players
+Use the **ban** command in the game to ban a player's character or the player's entire Steam Account. 
 <br />
-Use the **/unban** command in the game to unban a player's character or the player's entire Steam Account. 
+Use the **unban** command in the game to unban a player's character or the player's entire Steam Account. 
 <br />
 Use the commands against the player's character name to just ban the player's character. They can still join with other Valheim characters.
 <br />
  Use the player's SteamID to ban or unban the human player's entire Steam Account from on the Valheim Server. 
 
-## Fly
-Use the **/fly** command toggle enable and disable flying ability for just your character. If you are in the air and disable fly, you will take fall damage. 
-- Space bar: Character flys up
+### Fly
+Use the **fly** command toggle enable and disable flying ability for just your character. If you are in the air and disable fly, you will take fall damage. 
+- Space Bar: Character flys up
 - CRTL: Character flys down
 
-## Spawn Items
-Use the **/spawn** commands to spawn items that any charcter can use. Use the following format: <i>/spawn items number</i>. Example, to spawn 10 wood use: <i>/spawn wood 10</i>
-<br />
+### Spawn Items
+Use the **spawn** command to spawn items that any character can use. Use the following format: <i>spawn item number</i>. Example, to spawn 10 wood:
+```
+/spawn wood 10
+```
 Here is a list of items that you can spawn --> [Item List](https://www.reddit.com/r/valheim/comments/lig8ml/spawn_item_command_list/)

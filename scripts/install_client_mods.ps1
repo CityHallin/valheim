@@ -6,6 +6,8 @@
     .DESCRIPTION
     Simple PowerShell script that downloads client mods from this GitHub repo and 
     installs them in the client's Valheim folder. Currently only for Windows installs. 
+    - Server_devcommands: https://thunderstore.io/c/valheim/p/JereKuusela/Server_devcommands/
+    - Valheim Plus: https://www.nexusmods.com/valheim/mods/2323
 
 #>
 
@@ -106,14 +108,6 @@ Else {
 Write-Host "`nCopying mod files to client folder" -ForegroundColor Yellow
 Expand-Archive -Path ".\$($modZipFile).zip" -DestinationPath ".\$($modZipFile)" -Force
 Copy-Item -Path ".\$($modZipFile)\*" -Destination $valheimClientFolderPath -Recurse -Force
-$modFileCheck = Test-Path -Path "$($valheimClientFolderPath)\BepInEx\plugins\ValheimPlus.dll"
-If ($modFileCheck -eq $false) {
-    Write-Host " - valheimplus.dll file check failed" -ForegroundColor Red
-    Exit-Script
-}
-Else {
-    Write-Host " - valheimplus.dll file check successful" -ForegroundColor Green
-}
 
 #Clean-up
 Write-Host "`nClean up downloaded files" -ForegroundColor Yellow

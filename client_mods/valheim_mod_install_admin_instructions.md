@@ -94,7 +94,7 @@ The **Valheim Admin Mod - DevCommands** is required in order to continue. Use th
 
 ### Get SteamID <a name="steamid"></a>
 
-Follow the instructions here to get your steam ID which may be needed later from the server admin to allow your user access to run commands on the server: [Get Steam ID](https://github.com/CityHallin/valheim/blob/main/client_mods/get_steam_id.md)
+In order to be an admin on a Valheim server, an existing admin will need to add your Steam ID to the admin list on the server. Follow the instructions here to get your steam ID which may be needed later from the server admin to allow your user access to run commands on the server: [Get Steam ID](https://github.com/CityHallin/valheim/blob/main/client_mods/get_steam_id.md)
 
 Once you have the **Valheim Admin Mod - DevCommands** installed on your local machine and the server admin has added your SteamID to the Valheim server's admin list, you can now run admin commands on that Valheim server. Here are some of the commands. 
 

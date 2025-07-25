@@ -20,7 +20,7 @@ Instructions below for adding a Valheim Dedicated server to your in-game list.
 - Get the server name from the admin of the dedicated Valheim server. It will have either an IP address or URL followed by a port number (example below). Enter the server IP or URL and port number here and click **Add Server**.
 
 ```
-valheim.cityhallin.com:2456
+servername.cityhallin.com:2456
 ```
 
 <img src="./readme_files/p3.png" width="400px">

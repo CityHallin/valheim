@@ -38,7 +38,7 @@ valheim.cityhallin.com:2456
 
 - If you receive the **Banned** message below, it is either:
     - The server may be limited by server admins to permitted users only to reduce malicious players from raiding the server. Contact server admins for more information on getting access.
-    - You have be purposefully restricted from accessing the server by server admins.
+    - You have been purposefully restricted from accessing the server by server admins.
 
 <img src="./readme_files/p5.png" width="400px">
 <br />
